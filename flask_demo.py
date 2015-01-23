@@ -15,11 +15,5 @@ def api_root():
         return render_template("index.html", movie_name=movie_name, omdb_request=omdb_result)
     return render_template("index.html")
 
-def urlFormat(moviename):
-    return ''
-
-
 if __name__ == '__main__':
     app.run(debug = True)
-
-

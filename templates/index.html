@@ -1,6 +1,6 @@
 <html>
   <head>
-    <title>Handle POST requests with Flask</title>
+    <title>OMDB Flask API</title>
     <link href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet" media="screen">
     <style>
       .container {
@@ -14,9 +14,9 @@
   </head>
   <body>
     <div class="container">
-        <h1>POST request with Flask</h1>
+        <h1>Omdb api and Flask</h1>
       <form method="post" action="{{ url_for('api_root') }}">
-        <label for="sentence">Please enter your sentence:</label>
+        <label for="sentence">Please enter your movie name:</label>
         <input type="text" name="movie_name" /><br />
         <input type="submit" />
       </form>
