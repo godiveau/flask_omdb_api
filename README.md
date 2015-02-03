@@ -1,4 +1,4 @@
-# Flask OMDB Api
+# Flask OMDB Api #
 
 In this exercice we are playing with Flask and OMDB Api.
 
