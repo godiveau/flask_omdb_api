@@ -2,7 +2,6 @@
 from flask import Flask, url_for, render_template, request
 from format_name import *
 import requests
-import unicodedata
 
 app = Flask(__name__)
 

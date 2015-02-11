@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 
 import unittest
-import unicodedata
 from format_name import *
 
 class Test_format_name(unittest.TestCase):
